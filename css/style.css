@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Montserrat:wght@100&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+/*Area cabeçalho*/
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 48px;
+}
+
+header .logo{
+    width: 150px;
+}
+
+.nav ul{
+   display: flex;
+   align-items: center;
+   gap: 40px;  
+}
+
+.nav ul li a{
+   color: #fff;
+   font-size: 18px;
+   padding-bottom: 5px;
+   border-bottom: 2px solid transparent; 
+   transition: all .6s;
+}
+
+.nav ul li a:hover{
+    border-bottom: 2px solid #138eec;
+}
+
+.nav .pesquisa{
+    width: 22px;
+    cursor: pointer;
+    filter: invert(1);
+}
+
+.nav .perfil{
+    width: 40px;
+    cursor: pointer;
+}
+
+/*fim Area cabeçalho*/
+
+/*Area main*/
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 45em;
+    margin-top: -34px;
+}
+
+main section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 2.5em;
+}
+
+main section .logo-tvd{
+    width: 25em;
+    margin: 2.4em 0;
+}
+
+main section .btn-box{
+     display: flex;
+     align-items: center;
+     gap: 20px;
+}
+
+.btn-box .btn{
+    padding: 20px 40px;
+    background: #425265;
+    color: #fff;
+    margin-bottom: 2em;
+    border-bottom: 2px solid #fff;
+    transition: all .3s;
+}
+
+.btn-box .btn:hover{
+    background: #2d3846;
+}
+
+.btn-box .btn:focus{
+    background: #2d3846;
+}
+
+main section .text{
+   color: #fff;
+   line-height: 22px;
+}
+
+main section .btn-box .btn select{
+    background: transparent;
+    border: none;
+    color: #fff;
+    background-color: #425265;
+    font-size: 15px;
+}
+
+.btn2{
+    display: flex;
+    max-width: 200px;
+    height: 60px;
+    align-items: center;
+    color: #fff;
+    background: #0f79af;
+    padding: 4px 30px;
+    margin-top: 1em;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 2px solid #fff;
+    font-size: 16px;
+    gap: 32px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.btn2:hover{
+    background: #138ecc;
+}
+
+.btn2 .btn-play{
+    width: 18px;
+    filter: invert(1);
+}
